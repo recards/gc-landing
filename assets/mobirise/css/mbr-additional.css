@@ -815,6 +815,7 @@ section.lazy-placeholder:after {
 
  /* Where the scratchcard will be generate. */
 .sc__container {
+  margin-top: 30px;
   position: relative;
   overflow: hidden;
   max-height: 300px;
