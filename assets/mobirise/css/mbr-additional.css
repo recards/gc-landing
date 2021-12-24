@@ -823,7 +823,7 @@ section.lazy-placeholder:after {
 }
 
 .sc__inner {
-  /* position: absolute; */
+  position: absolute;
   top: 0;
   left: 0;
   width: 100%;
