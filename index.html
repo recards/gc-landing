@@ -60,14 +60,11 @@
 </section>
 
 <div id="scratchcard">
-  <div class="scratch_container">
-    <div class="scratch_viewport" id="scratch_viewport"></div>
-  </div>
 </div>
 
 <script type="text/javascript">
-  var scContainer = document.getElementById('scratch_viewport');
-  var sc = new ScratchCard('#scratch_viewport', {
+  var scContainer = document.getElementById('scratchcard');
+  var sc = new ScratchCard('#scratchcard', {
     enabledPercentUpdate: true,
     scratchType: SCRATCH_TYPE.LINE,
     // brushSrc: 'assets/scratchcard/brush.png',
@@ -75,7 +72,7 @@
     containerHeight: 300,
     imageForwardSrc: './assets/scratchcard/scratchcard.png',
     imageBackgroundSrc: '',
-    htmlBackground: '<p class="test"><strong>Hello i am HTML content !</strong></p>',
+    htmlBackground: '',
     clearZoneRadius: 30,
     percentToFinish: 50, // When the percent exceeds 50 on touchend event the callback will be exec.
     nPoints: 30,
