@@ -60,11 +60,14 @@
 </section>
 
 <div id="scratchcard">
+  <div class="scratch_container">
+    <div class="scratch_viewport" id="scratch_viewport"></div>
+  </div>
 </div>
 
 <script type="text/javascript">
-  var scContainer = document.getElementById('scratchcard');
-  var sc = new ScratchCard('#scratchcard', {
+  var scContainer = document.getElementById('scratch_viewport');
+  var sc = new ScratchCard('#scratch_viewport', {
     enabledPercentUpdate: true,
     scratchType: SCRATCH_TYPE.LINE,
     // brushSrc: 'assets/scratchcard/brush.png',
